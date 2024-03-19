@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #d6e2f0;
+    display: grid;
+    place-content: center;
+}
+
+.card {
+    background-color: #ffffff;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    max-width: 400px;
+    margin-top: 55px;
+    padding: 15px;
+    border-radius: 1rem;
+    text-align: center;
+    position: relative;
+}
+
+img {
+    display: block;
+    width: 100%;
+    border-radius: 0.7rem;
+}
+
+#heading {
+    color: #1f3251;
+    margin-top: 15px;
+    margin-bottom: auto;
+}
+
+#text {
+    color: #7b879d;
+    font-size: 95%;
+    margin-top: auto;
+    margin-bottom: 30px;
+}
+
+.attribution {
+    font-size: 11px; text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
